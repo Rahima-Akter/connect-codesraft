@@ -1,2 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+/* .mySwiper{
+    width: 500px;
+} */

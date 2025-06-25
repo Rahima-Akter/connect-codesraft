@@ -1,10 +1,9 @@
-import speed_icon from "../assets/speed-radar.png";
-import antenna from "../assets/antenna.png";
-import cloude from "../assets/cloude.png";
-import low_cost from "../assets/low-cost.png";
-import solution from "../assets/solution.png";
-import video_conf from "../assets/video-conf.png";
-import { data } from "react-router-dom";
+import speed_icon from "../../assets/speed-radar.png";
+import antenna from "../../assets/antenna.png";
+import cloude from "../../assets/cloude.png";
+import low_cost from "../../assets/low-cost.png";
+import solution from "../../assets/solution.png";
+import video_conf from "../../assets/video-conf.png";
 
 const OurServices = () => {
   const card_info = [
@@ -46,7 +45,7 @@ const OurServices = () => {
     },
   ];
   return (
-    <div className="lg:py-20 py-12 w-11/12 mx-auto">
+    <div className="lg:pt-24 py-12 w-11/12 mx-auto">
       <h1 className="uppercase font-extrabold text-center md:text-5xl text-4xl text-[#263524] lg:px-[350px] mx-auto md:px-32 px-5">
         why should chooose us
       </h1>
@@ -63,7 +62,7 @@ const OurServices = () => {
             <img
               src={card.icon}
               className="w-20 -mt-1"
-              alt={data.icon}
+              alt={card.icon}
             />
             <h2 className="font-bold uppercase text-3xl pb-3 pt-8">{card.heading}</h2>
             <p className="font-medium">{card.description}</p>

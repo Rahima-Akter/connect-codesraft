@@ -1,4 +1,4 @@
-import bg from "../assets/banner.jpg";
+import bg from "../../assets/banner.jpg";
 
 const Banner = () => {
   return (

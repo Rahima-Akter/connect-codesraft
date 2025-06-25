@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CoverageForm = () => {
+const Dum = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const CoverageForm = () => {
     );
 };
 
-export default CoverageForm;
+export default Dum;
