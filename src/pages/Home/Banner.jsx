@@ -3,7 +3,7 @@ import bg from "../../assets/banner.jpg";
 const Banner = () => {
   return (
     <div className="w-full overflow-hidden relative">
-      <img src={bg} alt="banner" className="block w-[100vw] lg:h-[100vh] md:h-[45vh] h-[90vh]" />
+      <img src={bg} alt="banner" className="block w-[100vw] lg:h-[100vh] md:h-[45vh] h-[85vh]" />
 
       {/* banner contents */}
       <div className="absolute top-32 md:left-5 text-black">

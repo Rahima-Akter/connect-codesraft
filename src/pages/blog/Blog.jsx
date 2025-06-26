@@ -15,9 +15,9 @@ const Blog = () => {
               />
 
               <div>
-                <p className="mt-6 text-sm text-blue-500 uppercase">Want to know</p>
+                <p className="mt-6 text-sm text-green-800 uppercase">Want to know</p>
 
-                <h1 className="capitalize max-w-lg mt-4 text-2xl font-semibold leading-tight text-gray-800 dark:text-white">
+                <h1 className="capitalize max-w-lg mt-4 text-2xl font-semibold leading-tight text-gray-800 dark:text-black">
                   today's interesting new about technology
                 </h1>
 
@@ -29,7 +29,7 @@ const Blog = () => {
                   />
 
                   <div className="mx-4">
-                    <h1 className="text-sm text-gray-700 dark:text-gray-200">
+                    <h1 className="text-sm text-gray-700">
                       Amelia. Anderson
                     </h1>
                     <p className="text-sm text-gray-500 dark:text-gray-400">
@@ -106,9 +106,9 @@ const Blog = () => {
               />
 
               <div>
-                <p className="mt-6 text-sm text-blue-500 uppercase">Want to know</p>
+                <p className="mt-6 text-sm text-green-800 uppercase">Want to know</p>
 
-                <h1 className="capitalize max-w-lg mt-4 text-2xl font-semibold leading-tight text-gray-800 dark:text-white">
+                <h1 className="capitalize max-w-lg mt-4 text-2xl font-semibold leading-tight text-gray-800 dark:text-black">
                   One of the tech giant in the tech industry
                 </h1>
 
@@ -120,7 +120,7 @@ const Blog = () => {
                   />
 
                   <div className="mx-4">
-                    <h1 className="text-sm text-gray-700 dark:text-gray-200">
+                    <h1 className="text-sm text-gray-700">
                       Emma Heart
                     </h1>
                     <p className="text-sm text-gray-500 dark:text-gray-400">

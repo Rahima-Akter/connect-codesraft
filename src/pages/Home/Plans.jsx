@@ -39,18 +39,18 @@ const Plans = () => {
                 alt="Shoes"
                 className="group-hover:scale-75 scale-90 duration-500"
               />
-              <span className="badge badge-xs badge-warning absolute top-3 right-3">
+              <span className="badge badge-xs bg-[#b9c9b8] px-2 absolute top-3 right-3">
                 Most Popular
               </span>
             </figure>
             <div className="card-body">
               <div className="flex justify-between -mt-2">
-                <h2 className="text-xl font-bold capitalize">
+                <h2 className="text-xl font-bold capitalize dark:text-black">
                   60 MBPS
                 </h2>
-                <span className="text-xl">৳2250/mo</span>
+                <span className="text-xl dark:text-gray-600">৳2250/mo</span>
               </div>
-              <ul className="mt-2 flex flex-col gap-2 text-xs">
+              <ul className="mt-2 flex flex-col gap-2 text-xs dark:text-gray-700">
                 <li>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -144,16 +144,16 @@ const Plans = () => {
                 alt="Shoes"
                 className="w-[75%] object-cover group-hover:scale-110 duration-500"
               />
-              <span className="badge badge-xs badge-warning absolute top-3 right-3">
+              <span className="badge badge-xs bg-[#b9c9b8] px-2 absolute top-3 right-3">
                 Most Popular
               </span>
             </figure>
             <div className="card-body">
               <div className="flex justify-between -mt-2">
-                <h2 className="text-xl font-bold capitalize">10 MBPS</h2>
-                <span className="text-xl">৳2250/mo</span>
+                <h2 className="text-xl font-bold capitalize dark:text-black00">10 MBPS</h2>
+                <span className="text-xl dark:text-gray-700">৳2250/mo</span>
               </div>
-              <ul className="mt-2 flex flex-col gap-2 text-xs">
+              <ul className="mt-2 flex flex-col gap-2 text-xs  dark:text-gray-700">
                 <li>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -256,10 +256,10 @@ const Plans = () => {
                 Platinum
               </span>
               <div className="flex justify-between items-center md:-mt-1 mt-1">
-                <h2 className="text-3xl font-bold">120 MBPS</h2>
-                <span className="text-lg">$29/mo</span>
+                <h2 className="text-3xl font-bold dark:text-black">120 MBPS</h2>
+                <span className="text-lg dark:text-gray-700">$29/mo</span>
               </div>
-              <ul className="mt- flex flex-col gap-1 text-xs">
+              <ul className="mt- flex flex-col gap-1 text-xs dark:text-gray-700">
                 <li>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -336,14 +336,14 @@ const Plans = () => {
               />
             </figure>
             <div className="card-body pr-10 md:-mt-0 -mt-6 z-10">
-              <span className="badge badge-xs badge-warning -mt-2">
+              <span className="badge badge-xs bg-[#b9c9b8] px-2 -mt-2">
                 Most Popular
               </span>
               <div className="flex justify-between items-center md:-mt-1 mt-1">
-                <h2 className="text-3xl font-bold">300 MBPS</h2>
-                <span className="text-lg">$29/mo</span>
+                <h2 className="text-3xl font-bold dark:text-black">300 MBPS</h2>
+                <span className="text-lg dark:text-gray-700">$29/mo</span>
               </div>
-              <ul className="flex flex-col gap-1 text-xs">
+              <ul className="flex flex-col gap-1 text-xs dark:text-gray-700">
                 <li>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -419,16 +419,16 @@ const Plans = () => {
               alt="Shoes"
               className="w-[75%] object-fill group-hover:scale-110 duration-500"
             />
-            <span className="badge badge-xs badge-warning absolute top-3 right-3">
+            <span className="badge badge-xs bg-[#b9c9b8] px-2 absolute top-3 right-3">
               Most Popular
             </span>
           </figure>
           <div className="card-body md:-mt-0 -mt-5">
             <div className="flex justify-between -mt-2">
-              <h2 className="text-xl font-bold capitalize">10 MBPS</h2>
-              <span className="text-xl">৳2250/mo</span>
+              <h2 className="text-xl font-bold capitalize dark:text-black">10 MBPS</h2>
+              <span className="text-xl dark:text-gray-700">৳2250/mo</span>
             </div>
-            <ul className="mt-2 flex flex-col gap-2 text-xs">
+            <ul className="mt-2 flex flex-col gap-2 text-xs dark:text-gray-700">
               <li>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

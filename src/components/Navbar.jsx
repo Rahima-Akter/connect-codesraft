@@ -6,11 +6,11 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-sm shadow-sm z-50 px-4 lg:px-12 py-4 flex justify-between items-center">
-      {/* Mobile menu button */}
+      {/* hamburger */}
       <div className="lg:hidden">
         <button 
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="btn btn-ghost btn-square"
+          className="btn bg-transparent text-black btn-square"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -28,9 +28,9 @@ const Navbar = () => {
           </svg>
         </button>
         
-        {/* Mobile menu dropdown - now controlled by state */}
+        {/* navigation for smaller screen */}
         {isMenuOpen && (
-          <div className="absolute left-0 top-16 w-full bg-white shadow-lg">
+          <div className="absolute left-0 top-16 w-full bg-white shadow-lg dark:text-black">
             <div className="flex flex-col p-4 space-y-2">
               <NavLink 
                 to="/" 
@@ -59,12 +59,12 @@ const Navbar = () => {
       </div>
 
       {/* Logo */}
-      <NavLink to="/" className="text-xl font-bold ml-4 lg:ml-0">
+      <NavLink to="/" className="text-xl font-bold ml-4 lg:ml-0 dark:text-black">
         CONNECT.
       </NavLink>
 
-      {/* Desktop navigation */}
-      <div className="hidden lg:flex space-x-4">
+      {/* for large device */}
+      <div className="hidden lg:flex space-x-4 dark:text-black">
         <NavLink
           to="/"
           className={({ isActive }) =>

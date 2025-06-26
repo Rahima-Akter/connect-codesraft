@@ -90,17 +90,17 @@ const AboutUs = () => {
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="font-bold text-lg mb-2">Quality First</h3>
+              <h3 className="font-bold text-lg mb-2 dark:text-green-800">Quality First</h3>
               <p className="text-gray-600">
                 We never compromise on the quality of our work.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="font-bold text-lg mb-2">Client Focus</h3>
+              <h3 className="font-bold text-lg mb-2 dark:text-green-800">Client Focus</h3>
               <p className="text-gray-600">Your success is our top priority.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="font-bold text-lg mb-2">Continuous Learning</h3>
+              <h3 className="font-bold text-lg mb-2 dark:text-green-800">Continuous Learning</h3>
               <p className="text-gray-600">
                 We're always improving our skills.
               </p>
