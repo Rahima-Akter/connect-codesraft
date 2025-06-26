@@ -6,7 +6,7 @@ import { Autoplay } from "swiper/modules";
 
 const WhoWeAre = () => {
   return (
-    <div className="">
+    <div className="pb-96">
       <h1 className="uppercase font-extrabold text-center md:text-5xl text-4xl text-[#263524] lg:px-[350px] mx-auto md:px-32 px-5">
         who we are
       </h1>

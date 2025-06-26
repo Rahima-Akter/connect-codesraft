@@ -2,6 +2,8 @@ import Dum from "../../components/Dum";
 import Banner from "./Banner";
 import CoverageForm from "./CoverageForm";
 import OurServices from "./OurServices";
+import Plans from "./Plans";
+import TeamMembers from "./TeamMembers";
 import WhoWeAre from "./WhoWeAre";
 
 
@@ -12,7 +14,9 @@ const Home = () => {
     <OurServices/>
     <CoverageForm/>
     <WhoWeAre/>
-    <Dum/>
+    <Plans/>
+    <TeamMembers/>
+    {/* <Dum/> */}
   </div>;
 };
 
