@@ -6,19 +6,21 @@ import TeamMembers from "./TeamMembers";
 import WhoWeAre from "./WhoWeAre";
 import Dum from "../../components/Dum";
 import Testimonial from "./Testimonial";
+import Newsletter from "./Newsletter";
 
 const Home = () => {
   // 1f2235
   return (
-    <div className="bg-[#ecf5e9] pb-[1000px]">
+    <div className="bg-[#ecf5e9]">
       <Banner />
       <OurServices />
       <CoverageForm />
       <WhoWeAre />
       <Plans />
       <TeamMembers />
-      <Dum />
       <Testimonial/>
+      <Newsletter/>
+      {/* <Dum /> */}
     </div>
   );
 };

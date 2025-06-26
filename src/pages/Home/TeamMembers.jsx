@@ -3,7 +3,7 @@ import member1 from "../../assets/telecom.jpeg";
 
 const TeamMembers = () => {
   return (
-    <div className="pt-16 relative pb-20">
+    <div className="pt-16 relative pb-14">
       <h1 className="uppercase font-extrabold text-center md:text-5xl text-4xl text-[#1a2e22] lg:px-[350px] mx-auto md:px-32 px-5 drop-shadow-lg">
         our <span className="text-[#3a7d54]">team members</span>
       </h1>
@@ -20,7 +20,7 @@ const TeamMembers = () => {
         {/* bg image */}
         <img src={team_grp} className="mx-auto pl-20 opacity-20 blur-[2px]" alt="" />
         
-        <div className="flex justify-center absolute top-[30%] left-[43%]">
+        <div className="flex justify-center absolute top-[36%] left-[43%]">
           {/* team member text div */}
           <div className="w-44 h-44 text-center p-2 bg-gradient-to-br from-[#1f352d] to-[#3a7d54] text-2xl font-bold text-[#ecf5e9] rounded-full pt-12 shadow-xl border-4 border-white/20">
             Team Members
