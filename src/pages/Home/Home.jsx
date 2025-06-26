@@ -1,10 +1,9 @@
 import Banner from "./Banner";
-import CoverageForm from "../../components/CoverageForm";
+import CoverageForm from "./CoverageForm";
 import OurServices from "./OurServices";
 import Plans from "./Plans";
 import TeamMembers from "./TeamMembers";
 import WhoWeAre from "./WhoWeAre";
-import Dum from "../../components/Dum";
 import Testimonial from "./Testimonial";
 import Newsletter from "./Newsletter";
 
@@ -20,7 +19,6 @@ const Home = () => {
       <TeamMembers />
       <Testimonial/>
       <Newsletter/>
-      {/* <Dum /> */}
     </div>
   );
 };
