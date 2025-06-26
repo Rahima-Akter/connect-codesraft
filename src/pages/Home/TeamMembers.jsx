@@ -3,7 +3,7 @@ import member1 from "../../assets/telecom.jpeg";
 
 const TeamMembers = () => {
   return (
-    <div className="pt-16 relative">
+    <div className="pt-16 relative pb-20">
       <h1 className="uppercase font-extrabold text-center md:text-5xl text-4xl text-[#1a2e22] lg:px-[350px] mx-auto md:px-32 px-5 drop-shadow-lg">
         our <span className="text-[#3a7d54]">team members</span>
       </h1>

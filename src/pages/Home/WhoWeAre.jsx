@@ -34,7 +34,7 @@ const WhoWeAre = () => {
         {/* swiper */}
         <Swiper
           modules={[Autoplay]}
-          autoplay={{ delay: 3000 }}
+          autoplay={{ delay: 3000, pauseOnMouseEnter:true }}
           slidesPerView={1}
           className="mySwiper absolute md:top-[150px] top-20 px-20 lg:left-0 md:-left-24 md:w-[500px] w-4/5"
         >
