@@ -1,41 +1,85 @@
-import React from "react";
-
 const Dum = () => {
   return (
-    <div className="w-11/12 mx-auto h-[300px] md:h-[400px] rounded-xl mt-14 overflow-hidden relative shadow-2xl">
-      {/* Background image covering full div */}
-      <img
-        // src={newslwtter}
-        className="w-full h-full object-cover absolute inset-0"
-        alt="Newsletter background"
-      />
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      {/* Hero Section */}
+      <div className="bg-green-800 text-white py-16 px-6 rounded-lg mb-12 text-center">
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">About Our Company</h1>
+        <p className="text-xl opacity-90">Building digital solutions since 2010</p>
+      </div>
 
-      {/* Dark overlay for better text readability */}
-      <div className="absolute inset-0 bg-black/30"></div>
-
-      {/* Content centered in the middle */}
-      <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-6">
-        <h2 className="capitalize font-bold text-3xl md:text-4xl lg:text-5xl text-white mb-4 drop-shadow-lg">
-          Join Our <span className="text-[#ff6b6b]">Newsletter</span>
-        </h2>
-        <p className="text-white text-lg md:text-xl mb-6 max-w-2xl drop-shadow-md">
-          Stay updated with our latest news and offers
-        </p>
-
-        <div className="w-full max-w-md relative">
-          <input
-            type="email"
-            placeholder="Enter your email address"
-            className="w-full border-none bg-white/90 rounded-full py-3 px-6 text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#ff6b6b] shadow-lg"
-          />
-          <button className="absolute right-1 top-1 capitalize font-bold rounded-full bg-[#1f352d] hover:bg-[#ff6b6b] transition-all duration-300 cursor-pointer px-6 py-2 text-white text-sm shadow-lg">
-            Subscribe
-          </button>
+      {/* Main Content */}
+      <div className="grid md:grid-cols-2 gap-8 mb-12">
+        {/* Our Story */}
+        <div className="bg-white p-8 rounded-lg shadow-md border border-gray-100">
+          <h2 className="text-2xl font-bold text-green-800 mb-4">Our Story</h2>
+          <p className="text-gray-600 mb-4">
+            We started in a small garage with just three people and a big dream. Today, we're a team of 50+ professionals helping businesses across the globe.
+          </p>
+          <p className="text-gray-600">
+            Our journey has been marked by innovation, dedication, and a commitment to delivering exceptional results for our clients.
+          </p>
         </div>
 
-        <p className="text-white/80 text-xs mt-4">
-          We respect your privacy. Unsubscribe at any time.
-        </p>
+        {/* What We Do */}
+        <div className="bg-white p-8 rounded-lg shadow-md border border-gray-100">
+          <h2 className="text-2xl font-bold text-green-800 mb-4">What We Do</h2>
+          <p className="text-gray-600 mb-4">
+            We specialize in creating custom software solutions that help businesses work smarter and grow faster.
+          </p>
+          <div className="flex items-center mt-6">
+            <span className="text-4xl mr-4">⌨️</span>
+            <p className="text-gray-600">
+              From web applications to mobile apps, we build tools that make a difference.
+            </p>
+          </div>
+        </div>
+
+        {/* Our Team */}
+        <div className="bg-white p-8 rounded-lg shadow-md border border-gray-100 md:col-span-2">
+          <h2 className="text-2xl font-bold text-green-800 mb-4">Our Team</h2>
+          <p className="text-gray-600 mb-4">
+            We're proud of our diverse team of developers, designers, and business experts who bring different perspectives to every project.
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
+            <div className="bg-green-50 p-4 rounded text-center">
+              <p className="text-green-800 font-bold text-2xl">12+</p>
+              <p className="text-gray-600">Years experience</p>
+            </div>
+            <div className="bg-green-50 p-4 rounded text-center">
+              <p className="text-green-800 font-bold text-2xl">50+</p>
+              <p className="text-gray-600">Team members</p>
+            </div>
+            <div className="bg-green-50 p-4 rounded text-center">
+              <p className="text-green-800 font-bold text-2xl">200+</p>
+              <p className="text-gray-600">Projects completed</p>
+            </div>
+            <div className="bg-green-50 p-4 rounded text-center">
+              <p className="text-green-800 font-bold text-2xl">98%</p>
+              <p className="text-gray-600">Client satisfaction</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Values Section */}
+      <div className="bg-green-50 p-8 rounded-lg">
+        <h2 className="text-2xl font-bold text-green-800 mb-8 text-center">Our Core Values</h2>
+        <div className="grid md:grid-cols-3 gap-6">
+          <div className="bg-white p-6 rounded-lg shadow-sm">
+            <h3 className="font-bold text-lg mb-2">Quality First</h3>
+            <p className="text-gray-600">We never compromise on the quality of our work.</p>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow-sm">
+            <h3 className="font-bold text-lg mb-2">Client Focus</h3>
+            <p className="text-gray-600">Your success is our top priority.</p>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow-sm">
+            <h3 className="font-bold text-lg mb-2">Continuous Learning</h3>
+            <p className="text-gray-600">We're always improving our skills.</p>
+          </div>
+        </div>
+
+        
       </div>
     </div>
   );

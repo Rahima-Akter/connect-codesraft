@@ -46,7 +46,7 @@ const Plans = () => {
             <div className="card-body">
               <div className="flex justify-between -mt-2">
                 <h2 className="text-xl font-bold capitalize">
-                  {/* full fiber connection to your place */}60 MBPS
+                  60 MBPS
                 </h2>
                 <span className="text-xl">৳2250/mo</span>
               </div>

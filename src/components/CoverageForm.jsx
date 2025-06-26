@@ -65,13 +65,13 @@ const CoverageForm = () => {
             </p>
           </div>
         </div>
-        <div className="border-2 border-[#263524] py-6 px-2"></div>
-        <div className="border-2 border-[#263524] py-6 px-2 md:block hidden"></div>
-        <div className="border-2 border-[#263524] py-6 px-2 md:block hidden"></div>
-        <div className="border-2 border-[#263524] py-6 px-2 md:block hidden"></div>
-        <div className="border-2 border-[#263524] py-6 px-2 md:block hidden"></div>
-        <div className="border-2 border-[#263524] py-6 px-2 md:block hidden"></div>
-        <div className="border-2 border-[#263524] py-6 px-2 lg:block hidden"></div>
+        <div className="border-2 border-[#263524] bg-white py-6 px-2"></div>
+        <div className="border-2 border-[#263524] bg-white py-6 px-2 md:block hidden"></div>
+        <div className="border-2 border-[#263524] bg-white py-6 px-2 md:block hidden"></div>
+        <div className="border-2 border-[#263524] bg-white py-6 px-2 md:block hidden"></div>
+        <div className="border-2 border-[#263524] bg-white py-6 px-2 md:block hidden"></div>
+        <div className="border-2 border-[#263524] bg-white py-6 px-2 md:block hidden"></div>
+        <div className="border-2 border-[#263524] bg-white py-6 px-2 lg:block hidden"></div>
 
         <div className="border-2 border-[#263524] py-6 px-2 bg-green-950 text-white font-medium text-xs relative group">
           <p>Ground Floor, Unit 6, Wellbrook Court, Girton Road</p>
@@ -86,8 +86,8 @@ const CoverageForm = () => {
           </div>
         </div>
 
-        <div className="border-2 border-[#263524] py-6 px-2"></div>
-        <div className="border-2 border-[#263524] py-6 px-2"></div>
+        <div className="border-2 border-[#263524] bg-white py-6 px-2"></div>
+        <div className="border-2 border-[#263524] bg-white py-6 px-2"></div>
 
         <div className="border-2 border-[#263524] py-6 px-2 bg-green-950 text-white font-medium text-xs relative group">
           <p>Ground Floor, Unit 6, Wellbrook Court, Girton Road</p>
@@ -102,13 +102,13 @@ const CoverageForm = () => {
           </div>
         </div>
 
-        <div className="border-2 border-[#263524] py-6 px-2 md:block hidden"></div>
-        <div className="border-2 border-[#263524] py-6 px-2 md:block hidden"></div>
-        <div className="border-2 border-[#263524] py-6 px-2 md:block hidden"></div>
-        <div className="border-2 border-[#263524] py-6 px-2 lg:block hidden"></div>
-        <div className="border-2 border-[#263524] py-6 px-2 lg:block hidden"></div>
-        <div className="border-2 border-[#263524] py-6 px-2 lg:block hidden"></div>
-        <div className="border-2 border-[#263524] py-6 px-2"></div>
+        <div className="border-2 border-[#263524] bg-white py-6 px-2 md:block hidden"></div>
+        <div className="border-2 border-[#263524] bg-white py-6 px-2 md:block hidden"></div>
+        <div className="border-2 border-[#263524] bg-white py-6 px-2 md:block hidden"></div>
+        <div className="border-2 border-[#263524] bg-white py-6 px-2 lg:block hidden"></div>
+        <div className="border-2 border-[#263524] bg-white py-6 px-2 lg:block hidden"></div>
+        <div className="border-2 border-[#263524] bg-white py-6 px-2 lg:block hidden"></div>
+        <div className="border-2 border-[#263524] bg-white py-6 px-2"></div>
 
         <div className="border-2 border-[#263524] py-6 px-2 bg-green-950 text-white font-medium text-xs relative group">
           <p>Ground Floor, Unit 6, Wellbrook Court, Girton Road</p>
